@@ -30,6 +30,9 @@ class Nav extends Component {
                 <li>
                   <a href="">Contact</a>
                 </li>
+                <li>
+                  <a href="">test</a>
+                </li>
               </ul>
             </Col>
             <Col className="nav-left">
