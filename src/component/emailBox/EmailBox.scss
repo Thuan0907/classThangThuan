@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.emailBox {
+  margin: 15px 0;
+  .imgEmail {
+    position: relative;
+  }
+
+  .email-content {
+    position: absolute;
+  }
+}

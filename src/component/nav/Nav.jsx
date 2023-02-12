@@ -30,14 +30,11 @@ class Nav extends Component {
                 <li>
                   <a href="">Contact</a>
                 </li>
-                <li>
-                  <a href="">test</a>
-                </li>
               </ul>
             </Col>
             <Col className="nav-left">
-              <button>Log in</button>
-              <button>Sign up</button>
+              <button className="btn-login">Log in</button>
+              <span className="signUp">Sign Up</span>
             </Col>
           </Row>
         </Container>
