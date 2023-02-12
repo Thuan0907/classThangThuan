@@ -16,6 +16,10 @@
       padding: 0;
       li {
         margin-right: 30px;
+        display: flex;
+        .icon {
+          color: #18d685;
+        }
         span {
           color: #bcbec0;
           font-size: 13px;

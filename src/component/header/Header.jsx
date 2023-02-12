@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import { BsTwitter, BsPhone, BsYoutube } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
+import { BiMap } from "react-icons/bi";
+import { AiOutlineMail, AiOutlineGooglePlus } from "react-icons/ai";
+import { ImLinkedin2 } from "react-icons/im";
 
 import "./Header.scss";
 
@@ -16,16 +21,16 @@ class Header extends Component {
                 {" "}
                 <ul>
                   <li>
-                    <i className="fa-brands fa-facebook"></i>
+                    <span className="icon">{<BiMap />}</span>
                     <span>123 sdasdasd, sadasddasd , USA</span>
                   </li>
 
                   <li>
-                    <i className="fa-brands fa-facebook"></i>
+                    <div className="icon">{<BsPhone />}</div>
                     <a href="">+123456799</a>
                   </li>
                   <li>
-                    <i className="fa-brands fa-facebook"></i>
+                    <div className="icon">{<AiOutlineMail />}</div>
                     <a href="">info@asdadas.com</a>
                   </li>
                 </ul>
@@ -33,29 +38,19 @@ class Header extends Component {
               <Col className="header-right">
                 <ul>
                   <li>
-                    <a href="">
-                      <i class="fa-brands fa-facebook"></i>
-                    </a>
+                    <a href="">{<FaFacebookF />}</a>
                   </li>
                   <li>
-                    <a href="">
-                      <i class="fa-brands fa-facebook"></i>
-                    </a>
+                    <a href="">{<BsTwitter />}</a>
                   </li>
                   <li>
-                    <a href="">
-                      <i class="fa-brands fa-facebook"></i>
-                    </a>
+                    <a href="">{<AiOutlineGooglePlus />}</a>
                   </li>
                   <li>
-                    <a href="">
-                      <i class="fa-brands fa-facebook"></i>
-                    </a>
+                    <a href="">{<BsYoutube />}</a>
                   </li>
                   <li>
-                    <a href="">
-                      <i class="fa-brands fa-facebook"></i>
-                    </a>
+                    <a href="">{<ImLinkedin2 />}</a>
                   </li>
                 </ul>
               </Col>
